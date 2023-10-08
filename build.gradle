@@ -15,7 +15,7 @@ dependencies {
 	
 	implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.2'
 	
-	//implementation 'com.github.KoosSA:NiftyGui-core:master-SNAPSHOT'
+	implementation 'com.github.KoosSA:NiftyGui-core:61a27b3d60'
 	
 	
 }
