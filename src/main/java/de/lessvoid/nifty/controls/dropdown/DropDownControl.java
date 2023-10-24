@@ -62,11 +62,11 @@ public class DropDownControl<T> extends AbstractController implements DropDown<T
       log.warning("The DropDownControl requires an id but this one is missing it.");
       return;
     }
-    String[] arr = {
+    /*String[] arr = {
     		"displayItems", 
     		properties.getWithDefault("displayItems", "4")
-    };
-    Attributes parameters = new Attributes(arr);
+    };*/
+    Attributes parameters = new Attributes("displayItems", properties.getWithDefault("displayItems", "4"));
     popup = nifty.createPopupWithStyle(screen, "dropDownBoxSelectPopup", properties.get("style"), parameters);
     DropDownPopup<T> popupControl = popup.getControl(DropDownPopup.class);
     if (popupControl == null) {

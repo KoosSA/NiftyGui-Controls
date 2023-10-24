@@ -22,10 +22,9 @@ repositories {
 dependencies {
 	
 	implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.2'
-	implementation group: 'xmlpull', name: 'xmlpull', version: '1.1.3.1'
 	implementation group: 'javax.annotation', name: 'javax.annotation-api', version: '1.3.2'
 	
-	implementation 'github.koossa:niftygui-core:1.0.0'
+	implementation "github.koossa:niftygui-core:$coreVersion"
 	
 	
 }
