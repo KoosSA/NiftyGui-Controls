@@ -9,7 +9,7 @@ import java.util.List;
  * A single selection mode for a Nifty ListBox. You can only select a single item.
  * Selecting a new one will remove any previous selected items.
  *
- * @param <T>
+ * @param <T> type
  * @author void
  */
 class ListBoxSelectionModeSingle<T> implements ListBoxSelectionMode<T> {

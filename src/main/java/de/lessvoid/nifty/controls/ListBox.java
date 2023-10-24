@@ -17,7 +17,7 @@ import de.lessvoid.nifty.spi.render.RenderFont;
 /**
  * The ListBox interface is the Nifty control API view of a Nifty ListBox control.
  *
- * @param <T>
+ * @param <T> type
  * @author void
  */
 public interface ListBox<T> extends NiftyControl {
@@ -219,6 +219,7 @@ public interface ListBox<T> extends NiftyControl {
 
   /**
    * Sort all items using the given comparator.
+ * @param comparator comparator
    */
   void sortAllItems(@Nullable Comparator<T> comparator);
 
@@ -272,7 +273,7 @@ public interface ListBox<T> extends NiftyControl {
    * to be displayed in the ListBox. If you omit it then Nifty will use its default
    * implementation which simply calls T.toString();
    *
-   * @param <T>
+   * @param <T> type
    * @author void
    */
   public interface ListBoxViewConverter<T> {
@@ -299,7 +300,7 @@ public interface ListBox<T> extends NiftyControl {
    * A simple implementation of ListBoxViewConverter that will just use item.toString().
    * This is the default SimpleListBoxViewConverter used when you don't set a different implementation.
    *
-   * @param <T>
+   * @param <T> type
    * @author void
    */
   public class ListBoxViewConverterSimple<T> implements ListBoxViewConverter<T> {

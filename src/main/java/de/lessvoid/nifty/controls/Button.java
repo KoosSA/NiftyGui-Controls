@@ -1,12 +1,14 @@
 package de.lessvoid.nifty.controls;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+
 import de.lessvoid.nifty.layout.align.HorizontalAlign;
 import de.lessvoid.nifty.layout.align.VerticalAlign;
 import de.lessvoid.nifty.spi.render.RenderFont;
 import de.lessvoid.nifty.tools.Color;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
+
 
 /**
  * A TextButton Control.

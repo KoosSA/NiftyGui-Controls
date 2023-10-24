@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * A disabled selection mode for a Nifty ListBox. You can't select anything.
  *
- * @param <T>
+ * @param <T> type
  * @author void
  */
 class ListBoxSelectionModeDisabled<T> implements ListBoxSelectionMode<T> {

@@ -8,7 +8,7 @@ import java.util.List;
  * A multiple selection mode for a Nifty ListBox. You can select multiple items.
  * Selecting a new one will add to any previous selected items.
  *
- * @param <T>
+ * @param <T> type
  * @author void
  */
 class ListBoxSelectionModeMulti<T> implements ListBoxSelectionMode<T> {

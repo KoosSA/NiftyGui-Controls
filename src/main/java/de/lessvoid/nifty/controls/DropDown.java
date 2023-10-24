@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 /**
  * The DropDown interface is the Nifty control API view of a Nifty DropDown control.
  *
- * @param <T>
+ * @param <T> type
  * @author void
  */
 public interface DropDown<T> extends NiftyControl {
@@ -124,7 +124,7 @@ public interface DropDown<T> extends NiftyControl {
    * to be displayed in the DropDown. If you omit it then Nifty will use its default
    * implementation which simply calls T.toString();
    *
-   * @param <T>
+   * @param <T> type
    * @author void
    */
   public interface DropDownViewConverter<T> {
@@ -150,7 +150,7 @@ public interface DropDown<T> extends NiftyControl {
    * A simple implementation of DropDownViewConverter that will just use item.toString().
    * This is the default DropDownViewConverter used when you don't set a different implementation.
    *
-   * @param <T>
+   * @param <T> type
    * @author void
    */
   public class SimpleDropDownViewConverter<T> implements DropDownViewConverter<T> {

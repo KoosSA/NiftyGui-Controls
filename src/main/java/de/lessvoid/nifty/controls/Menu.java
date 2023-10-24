@@ -6,7 +6,7 @@ import javax.annotation.Nullable;
 /**
  * The Menu interface is the Nifty control API view of a Menu control.
  *
- * @param <T>
+ * @param <T> type
  * @author void
  */
 public interface Menu<T> extends NiftyControl {
